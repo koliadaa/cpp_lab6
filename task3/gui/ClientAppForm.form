@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="udpWork.task3_multicast.gui.ClientApp">
+  <grid id="27dc6" binding="contentPane" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="570" height="448"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="d867a" layout-manager="FlowLayout" hgap="15" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="bc96" class="javax.swing.JButton" binding="connect" custom-create="true">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="228f4" class="javax.swing.JButton" binding="disconnect" custom-create="true">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="41a19" class="javax.swing.JButton" binding="clear" custom-create="true">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="aa635" class="javax.swing.JButton" binding="exit" custom-create="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="22c81" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="799f7" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="South"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="e23a0" class="javax.swing.JTextField" binding="messageField">
+                <constraints/>
+                <properties>
+                  <minimumSize width="220" height="30"/>
+                  <preferredSize width="220" height="30"/>
+                </properties>
+              </component>
+              <component id="a7962" class="javax.swing.JButton" binding="sendMessage" custom-create="true">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </grid>
+          <scrollpane id="8c249">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="e793a" class="javax.swing.JTextArea" binding="allMessagesTextArea">
+                <constraints/>
+                <properties>
+                  <editable value="false"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="68c4a" layout-manager="FlowLayout" hgap="15" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="87e32" layout-manager="FlowLayout" hgap="5" vgap="0" flow-align="1">
+            <constraints/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="af75" class="javax.swing.JLabel" binding="addressLabel" custom-create="true">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="611c9" class="javax.swing.JTextField" binding="addressTextField" custom-create="true">
+                <constraints/>
+                <properties>
+                  <minimumSize width="90" height="30"/>
+                  <preferredSize width="90" height="30"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="fa427" layout-manager="FlowLayout" hgap="5" vgap="0" flow-align="1">
+            <constraints/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="7d827" class="javax.swing.JLabel" binding="portLabel" custom-create="true">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="c819c" class="javax.swing.JTextField" binding="portTextField" custom-create="true">
+                <constraints/>
+                <properties>
+                  <minimumSize width="90" height="30"/>
+                  <preferredSize width="90" height="30"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="a771c" layout-manager="FlowLayout" hgap="5" vgap="0" flow-align="1">
+            <constraints/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="38028" class="javax.swing.JLabel" binding="nameLabel" custom-create="true">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="5a5a8" class="javax.swing.JTextField" binding="nameTextField" custom-create="true">
+                <constraints/>
+                <properties>
+                  <minimumSize width="90" height="30"/>
+                  <preferredSize width="90" height="30"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
